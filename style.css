@@ -1,0 +1,38 @@
+header{
+    display: flex;
+    justify-content: end;
+    border-bottom: 1px solid;
+}
+.cart-button{
+    background-color: #7b38d8;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    font-size: 15px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.goods-list{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.goods-item{
+    border: 1px solid gray;
+    width: 320px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.price{
+    color: green;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+img {
+    width: 80%;
+}
